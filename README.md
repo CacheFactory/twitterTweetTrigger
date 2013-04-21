@@ -11,6 +11,8 @@ I made this little tool to kick off a workflow in Process Smith, but it could be
 
 You need to enter your Twitter account information in the twitter4j.properties file. 
 
+You can edit the negative.txt to add negative tweet keywords to prevent a HTTP request.
+
 This is a command line program. The parameters are as follows:
 * -k  keywords: A comma seperated list of keywords for the program to scan Tweets for. 
 * -u  URL: The URL that will recieve a post request.
